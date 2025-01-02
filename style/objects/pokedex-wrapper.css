@@ -1,0 +1,4 @@
+.pokedex-wrapper {
+    max-width: var(--ld-main-wrapper);
+    margin: 0 auto;
+}
