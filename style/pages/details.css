@@ -1,0 +1,20 @@
+.details>.image{
+    height: auto;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.details>.image>img{
+    height: auto;
+    width: auto;
+    background-color: red;
+}
+
+.details>.text-details{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

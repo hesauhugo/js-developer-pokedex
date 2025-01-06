@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Pokedex-Details</title>
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
     <!-- COMPONENTS -->
 
     <!-- PAGES -->
-    <link rel="stylesheet" href="/style/pages/pokedex.css" />
+    <link rel="stylesheet" href="/style/pages/details.css" />
 
     <!-- TRUMPS -->
 
@@ -45,30 +45,25 @@
     <script src="/scripts/main.js"></script> -->
 
 </head>
-
 <body>
     <div class="pokedex">
         <div class="wrapper">
             <header class="header">
-                Pokedex
+                Pokedex Details
             </header>
-
             <main class="main-content">
-                <ol id="pokemonList" class="pokemons">
-                    <!-- ..... Pokemons here ..... -->
-                </ol>
-
-                <div class="pagination">
-                    <button id="loadMoreButton" type="button">
-                        Load More
-                    </button>
+                <div class="details">
+                    <div class="image">
+                        <img id="pokedex-details-img" alt="pokemon image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"/>
+                    </div>
+                    <div class="text-details">
+                        <span>número: meu número</span>
+                        <span>nome: meunome</span>
+                        <span>tipo: meu tipo</span>
+                    </div>
                 </div>
-                </section>
-
+            </main>
         </div>
-        <script src="/scripts/pokemon-model.js"></script>
-        <script src="/scripts/poke-api.js"></script>
-        <script src="/scripts/main.js"></script>
+    </div>
 </body>
-
 </html>

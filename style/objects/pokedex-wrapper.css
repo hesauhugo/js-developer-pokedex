@@ -1,4 +1,22 @@
-.pokedex-wrapper {
-    max-width: var(--ld-main-wrapper);
+.pokedex>.wrapper{
+    max-width: var(--pokedex-main-wrapper);
     margin: 0 auto;
+}
+.pokedex>.wrapper>.main-content
+{
+    max-width: var(--pokedex-main-wrapper);
+    background-color: #fff;
+}
+
+.pokedex>.wrapper>header{
+    height: 30px;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 0;
+    font-family: var(--pockedex-font-family-base);
+    font-size: calc(var(--pockedex-font-size-base) + 14px);
+
 }
